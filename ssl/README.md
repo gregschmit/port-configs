@@ -1,4 +1,4 @@
-# SSL (Secure Sockets Layer) Directory
+# SSL (Secure Sockets Layer)
 
 This directory is meant to contain the private keys, host certificates, intermediate certificates, and certificate signing requests that you may need on the server.
 
