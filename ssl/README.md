@@ -26,7 +26,7 @@ This directory is meant to contain the private keys, host certificates, intermed
 
 `openssl genpkey -algorithm rsa -pkeyopt rsa_keygen_bits:4096 -out root-key.pem`
 
-`openssl req -x509 -new -nodes -key root-key.pem -sha256 -days 1024 -out root-crt.pem
+`openssl req -x509 -new -nodes -key root-key.pem -sha256 -days 1024 -out root-crt.pem`
 
  2. Create the client key/CSR (prefereably do this on the client itself, not on the CA as this reveals the client private key to the CA):
 
