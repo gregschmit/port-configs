@@ -18,7 +18,7 @@ This directory is meant to contain the private keys, host certificates, intermed
 
  - How to directly create a self-signed certificate without a CSR:
  
-`openssl req -x509 -new -nodes -key key.pem -sha256 -days 256 -out crt.pem`
+`openssl req -x509 -new -nodes -sha256 -days 256 -key key.pem -out crt.pem`
 
 ## Creating and using your own Certificate Authority
 
